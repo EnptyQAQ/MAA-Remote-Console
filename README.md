@@ -1,5 +1,5 @@
 # MAA-Remote-Console
-一个基于 ESP8266 的《明日方舟》[MAA](https://maa.plus/) 助手远程控制面板。带有UI、Token 登录验证、Webhook 通知接收，以及状态实时反馈功能。
+一个基于 ESP8266 的《明日方舟》[MAA](https://maa.plus/) 助手的远程控制面板。带有UI、Token 登录验证、Webhook 通知接收，以及状态实时反馈功能。
 
 ## ✨ 功能特性标识符前缀
 
