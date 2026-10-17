@@ -45,6 +45,30 @@
    User users[] = {
      {"admin", "admin123", "", true } // 用户名, 密码
    };
+
+### 2. 上传 LittleFS (头像)
+
+1. 在项目目录下确保有 data 文件夹，里面放一张名为 avatar.jpg 的图片。
+
+2. 在 Arduino IDE 中，点击 工具 -> ESP8266 LittleFS Data Upload。(注意：上传时请关闭串口监视器)
+
+### 3. 访问控制台
+
+1. 打开串口监视器（波特率 115200），查看 ESP8266 获取的局域网 IP。
+
+2. 浏览器访问该 IP，输入账号密码登录。
+
+### 3. MAA 配置指南
+
+登录网页后，你会看到两串地址。
+
+1. MAA 远程控制：在 MAA 设置 -> 远程控制中，填入网页上显示的两个地址，并填写网页上生成的 用户标识符。
+
+2. MAA 外部通知 (Webhook)：在 MAA 设置 -> 通知设置 -> 添加推送 -> 自定义 Webhook：
+
+-URL 填入：http://你的ESP8266_IP/webhook
+-消息体模板填入：{"title": "{title}", "content": "{content}"}
+
 ###声明：
 请遵守知识共享 署名-非商业性使用-相同方式共享 4.0 国际Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-ND 4.0)
 不允许商业用 如果有人商业用可以联系ENPTY@qq.com
