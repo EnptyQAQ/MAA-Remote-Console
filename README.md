@@ -70,8 +70,10 @@
 -消息体模板填入：{"title": "{title}", "content": "{content}"}
 
 ###声明：
+
 请遵守知识共享 署名-非商业性使用-相同方式共享 4.0 国际Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-ND 4.0)
 不允许商业用 如果有人商业用可以联系ENPTY@qq.com
+
 ###你可以自由地：
 
 分享 - 在任何媒介或格式下复制并分发本素材。
